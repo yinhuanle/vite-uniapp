@@ -20,7 +20,7 @@
 			"pagePath": "pages/login/login",
 			"iconPath": "static/images/logo.png",
 			"selectedIconPath": "static/images/logo.png",
-			"text": "组件",
+			"text": "组件"
       // "iconfont": {
       //   "text": "\ue676",
       //   "selectedText": "\ue676",
