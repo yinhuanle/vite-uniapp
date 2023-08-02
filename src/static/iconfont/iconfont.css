@@ -1,0 +1,387 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3872304 */
+  src: url('iconfont.woff2?t=1690874575484') format('woff2'),
+       url('iconfont.woff?t=1690874575484') format('woff'),
+       url('iconfont.ttf?t=1690874575484') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-scooterchongzhijilu:before {
+  content: "\e676";
+}
+
+.icon-scooterbofang:before {
+  content: "\e66f";
+}
+
+.icon-scooterzanting:before {
+  content: "\e677";
+}
+
+.icon-scootergengxinshijian-01:before {
+  content: "\e673";
+}
+
+.icon-scootera-icon-batchrecharge1:before {
+  content: "\e675";
+}
+
+.icon-scooteryouxiang:before {
+  content: "\e670";
+}
+
+.icon-scootershouji:before {
+  content: "\e671";
+}
+
+.icon-scooterzhanghu:before {
+  content: "\e672";
+}
+
+.icon-scooterbangdingyingyong:before {
+  content: "\e674";
+}
+
+.icon-scooterfuzhi:before {
+  content: "\e66c";
+}
+
+.icon-scootererweima:before {
+  content: "\e66d";
+}
+
+.icon-scooterxiafa:before {
+  content: "\e66e";
+}
+
+.icon-scooterjiarubaokuan:before {
+  content: "\e663";
+}
+
+.icon-scootershangjia:before {
+  content: "\e664";
+}
+
+.icon-scooterxiajia:before {
+  content: "\e665";
+}
+
+.icon-scootershuxingshezhi:before {
+  content: "\e666";
+}
+
+.icon-scootertongzhikaiguan:before {
+  content: "\e667";
+}
+
+.icon-scootertongzhipeizhi:before {
+  content: "\e668";
+}
+
+.icon-scootershijianpeizhi:before {
+  content: "\e669";
+}
+
+.icon-scootershishigenzong:before {
+  content: "\e66a";
+}
+
+.icon-scooterxiugaimima:before {
+  content: "\e66b";
+}
+
+.icon-scooterestablish:before {
+  content: "\e6fb";
+}
+
+.icon-scooterditufanhui:before {
+  content: "\e662";
+}
+
+.icon-scooterqiangtui:before {
+  content: "\e65e";
+}
+
+.icon-scooterzhihangyici:before {
+  content: "\e65f";
+}
+
+.icon-scooterzhongshi:before {
+  content: "\e660";
+}
+
+.icon-scootertuikuan:before {
+  content: "\e661";
+}
+
+.icon-scootercuiban1:before {
+  content: "\e646";
+}
+
+.icon-scooterkaishichuli:before {
+  content: "\e659";
+}
+
+.icon-scooterquxiao:before {
+  content: "\e65a";
+}
+
+.icon-scooterzhuanpai:before {
+  content: "\e65b";
+}
+
+.icon-scooterjiekoupeizhi:before {
+  content: "\e65c";
+}
+
+.icon-scooterpaidan:before {
+  content: "\e65d";
+}
+
+.icon-scootercuiban:before {
+  content: "\e643";
+}
+
+.icon-scooterview_details:before {
+  content: "\e6fd";
+}
+
+.icon-scooteredit:before {
+  content: "\e701";
+}
+
+.icon-scooterdelete:before {
+  content: "\e707";
+}
+
+.icon-scooteryingyongguanli-xian:before {
+  content: "\e657";
+}
+
+.icon-scooteryingyongguanli-mian:before {
+  content: "\e658";
+}
+
+.icon-scooterchanpinguanli-mian:before {
+  content: "\e656";
+}
+
+.icon-scooterchanpinguanli:before {
+  content: "\4ea7";
+}
+
+.icon-scootershanchu:before {
+  content: "\e655";
+}
+
+.icon-scootershuaxin:before {
+  content: "\e653";
+}
+
+.icon-scootera-Frame696:before {
+  content: "\e654";
+}
+
+.icon-scooterliepeizhi1:before {
+  content: "\e652";
+}
+
+.icon-scooterxieyiguanli-xian:before {
+  content: "\e650";
+}
+
+.icon-scooterxieyiguanli-mian:before {
+  content: "\e651";
+}
+
+.icon-scooterwenjianshangchuan:before {
+  content: "\e64f";
+}
+
+.icon-scooterzhankai:before {
+  content: "\e64d";
+}
+
+.icon-scooterchaxun:before {
+  content: "\e64e";
+}
+
+.icon-scooterzhongwen:before {
+  content: "\e64c";
+}
+
+.icon-scooterlanguage:before {
+  content: "\e64b";
+}
+
+.icon-scootericonlanguage:before {
+  content: "\e85f";
+}
+
+.icon-scooterdailishangguanli-mian:before {
+  content: "\e633";
+}
+
+.icon-scootershujukanban-mian:before {
+  content: "\e634";
+}
+
+.icon-scooterxitongguanli-mian:before {
+  content: "\e635";
+}
+
+.icon-scootershebeiguanli-mian:before {
+  content: "\e636";
+}
+
+.icon-scootershouhoufuwu-mian:before {
+  content: "\e637";
+}
+
+.icon-scooterzuzhiguanli-mian:before {
+  content: "\e638";
+}
+
+.icon-scooteryonghuyunying-mian:before {
+  content: "\e645";
+}
+
+.icon-scooterxianxiamendian-mian:before {
+  content: "\e647";
+}
+
+.icon-scooterSIMkaguanli-mian:before {
+  content: "\e648";
+}
+
+.icon-scooterchanceguanli-mian:before {
+  content: "\e649";
+}
+
+.icon-scooterqiyeguanli-mian:before {
+  content: "\e64a";
+}
+
+.icon-scooterqiyeguanli-xian:before {
+  content: "\e639";
+}
+
+.icon-scooterxitongguanli-xian:before {
+  content: "\e63a";
+}
+
+.icon-scootershebeiguanli-xian1:before {
+  content: "\e63b";
+}
+
+.icon-scooterSIMkaguanli-xian:before {
+  content: "\e63c";
+}
+
+.icon-scooterchanceguanli-xian:before {
+  content: "\e63d";
+}
+
+.icon-scooteryonghuyunying-xian1:before {
+  content: "\e63e";
+}
+
+.icon-scooterdailishangguanli-xian:before {
+  content: "\e63f";
+}
+
+.icon-scooterzuzhiguanli-xian1:before {
+  content: "\e640";
+}
+
+.icon-scooterxianxiamendian-xian1:before {
+  content: "\e641";
+}
+
+.icon-scootershujukanban-xian1:before {
+  content: "\e642";
+}
+
+.icon-scootershouhoufuwu-xian1:before {
+  content: "\e644";
+}
+
+.icon-scootermimazhongzhi1:before {
+  content: "\e631";
+}
+
+.icon-scooterzuzhiguanli:before {
+  content: "\e632";
+}
+
+.icon-scooterbiangengjilu:before {
+  content: "\e61f";
+}
+
+.icon-scooterfabu:before {
+  content: "\e621";
+}
+
+.icon-scooterhuishoushebei:before {
+  content: "\e622";
+}
+
+.icon-scooterfujian:before {
+  content: "\e623";
+}
+
+.icon-scootertianjia:before {
+  content: "\e624";
+}
+
+.icon-scooterzhongzhi:before {
+  content: "\e625";
+}
+
+.icon-scooterdingwei:before {
+  content: "\e627";
+}
+
+.icon-scooterrizhiwenjian:before {
+  content: "\e628";
+}
+
+.icon-scooterpiliangdaoru:before {
+  content: "\e629";
+}
+
+.icon-scooterxiazai:before {
+  content: "\e62a";
+}
+
+.icon-scootershebeiliebiao:before {
+  content: "\e62b";
+}
+
+.icon-scooterFrame-1:before {
+  content: "\e62c";
+}
+
+.icon-scooterFrame:before {
+  content: "\e62d";
+}
+
+.icon-scooterquxiaofabu:before {
+  content: "\e62e";
+}
+
+.icon-scootershebeiditu:before {
+  content: "\e62f";
+}
+
+.icon-scooterquanxianshezhi:before {
+  content: "\e630";
+}
+

@@ -1,0 +1,135 @@
+{
+	"name": "uni-preset-vue",
+	"version": "0.0.0",
+	"scripts": {
+		"build:alipay-dev": "uni build -p alipay-dev",
+		"build:h5-dev": "uni build -p h5-dev",
+		"build:alipay-test": "uni build -p alipay-test",
+		"build:h5-test": "uni build -p h5-test",
+		"build:alipay-pro": "uni build -p alipay-pro",
+		"build:h5-pro": "uni build -p h5-pro",
+		"run:alipay-dev": "uni -p alipay-dev",
+		"run:h5-dev": "uni -p h5-dev",
+		"run:alipay-test": "uni -p alipay-test",
+		"run:h5-test": "uni -p h5-test",
+		"run:alipay-pro": "uni -p alipay-pro",
+		"run:h5-pro": "uni -p h5-pro"
+	},
+	"uni-app": {
+		"scripts": {
+			"alipay-dev": {
+				"title": "alipay开发环境",
+				"env": {
+					"UNI_PLATFORM": "alipay",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例"
+				},
+				"define": {
+					"ALIPAY-DEV": true
+				}
+			},
+			"alipay-test": {
+				"title": "alipay测试环境",
+				"env": {
+					"UNI_PLATFORM": "alipay",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例"
+				},
+				"define": {
+					"ALIPAY-TEST": true
+				}
+			},
+			"alipay-pro": {
+				"title": "alipay生产环境",
+				"env": {
+					"UNI_PLATFORM": "alipay",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例"
+				},
+				"define": {
+					"ALIPAY-PRO": true
+				}
+			},
+			"h5-dev": {
+				"title": "h5开发环境",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"browser": "chrome",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例-WEB"
+				},
+				"define": {
+					"H5-DEV": true
+				}
+			},
+			"h5-test": {
+				"title": "h5测试环境",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"browser": "chrome",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例-WEB"
+				},
+				"define": {
+					"H5-TEST": true
+				}
+			},
+			"h5-pro": {
+				"title": "h5生产环境",
+				"env": {
+					"UNI_PLATFORM": "h5",
+					"browser": "chrome",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例-WEB"
+				},
+				"define": {
+					"H5-PRO": true
+				}
+			},
+			"mp-weixin": {
+				"title": "微信小程序测试环境打包",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例-WEB"
+				},
+				"define": {
+					"MP-WEIXIN": true
+				}
+			},
+			"mp-weixin-pro": {
+				"title": "微信小程序生产环境打包",
+				"env": {
+					"UNI_PLATFORM": "mp-weixin",
+					"VUE_APP_OUTPUT_DIR": "Hbuilder环境参数配置示例-WEB"
+				},
+				"define": {
+					"MP-WEIXIN-PRO": true
+				}
+			}
+		}
+	},
+	"dependencies": {
+		"@dcloudio/uni-app": "3.0.0-3080720230703001",
+		"@dcloudio/uni-app-plus": "3.0.0-3080720230703001",
+		"@dcloudio/uni-components": "3.0.0-3080720230703001",
+		"@dcloudio/uni-h5": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-alipay": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-baidu": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-jd": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-kuaishou": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-lark": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-qq": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-toutiao": "3.0.0-3080720230703001",
+		"@dcloudio/uni-mp-weixin": "3.0.0-3080720230703001",
+		"@dcloudio/uni-quickapp-webview": "3.0.0-3080720230703001",
+		"uview-plus": "^3.0.17",
+		"vue": "^3.2.45"
+	},
+	"devDependencies": {
+		"@dcloudio/types": "^3.3.2",
+		"@dcloudio/uni-automator": "3.0.0-3080720230703001",
+		"@dcloudio/uni-cli-shared": "3.0.0-3080720230703001",
+		"@dcloudio/uni-stacktracey": "3.0.0-3080720230703001",
+		"@dcloudio/vite-plugin-uni": "3.0.0-3080720230703001",
+		"@vue/tsconfig": "^0.1.3",
+		"sass": "^1.64.2",
+		"sass-loader": "^10.1.1",
+		"typescript": "^4.9.4",
+		"vite": "4.0.4",
+		"vue-tsc": "^1.0.24"
+	}
+}

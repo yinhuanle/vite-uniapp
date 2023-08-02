@@ -1,0 +1,37 @@
+.fr {
+  float: right;
+}
+
+.fl {
+  float: left;
+}
+
+.block {
+  display: block;
+}
+.none {
+  display: none;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+}
+.vm {
+  display: inline-block;
+  vertical-align: middle;
+}
+.vt {
+  display: inline-block;
+  vertical-align: top;
+}
+
