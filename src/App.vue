@@ -18,4 +18,7 @@ onHide(() => {
     width: 100%;
     flex: none !important;
   }
+  .width-all {
+	  width: 100%;
+  }
 </style>

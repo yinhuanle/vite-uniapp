@@ -17,25 +17,24 @@
     "spacing": "3px",
     "iconfontSrc": "static/iconfont/iconfont.ttf",
     "list": [{
-			"pagePath": "pages/login/login",
-			"iconPath": "static/images/logo.png",
-			"selectedIconPath": "static/images/logo.png",
-			"text": "组件"
-      // "iconfont": {
-      //   "text": "\ue676",
-      //   "selectedText": "\ue676",
-      //   "fontSize": "17px",
-      //   "color": "#000000",
-      //   "selectedColor": "#0000ff"
-      // }
-		}, {
 			"pagePath": "pages/index/index",
 			"iconPath": "static/images/logo.png",
 			"selectedIconPath": "static/images/logo.png",
-			"text": "接口"
+			"text": "我"
+		}, {
+			"pagePath": "pages/login/login",
+			"iconPath": "static/images/logo.png",
+			"selectedIconPath": "static/images/logo.png",
+			"text": "login"
 		}]
   },  
 	"pages": [
+    {
+			"path": "pages/index/index",
+			"style": {
+				// "navigationBarTitleText": "uni-app"
+			}
+		},
 		{
 			"path": "pages/login/login",
 			"style": {
@@ -43,13 +42,8 @@
         "navigationStyle": "custom",
 				"navigationBarTitleText": ""
 			}
-		},
-		{
-			"path": "pages/index/index",
-			"style": {
-				// "navigationBarTitleText": "uni-app"
-			}
 		}
+		
 	],
 	// "subPackages": [{
 	// 	"root": "pagesA",
@@ -61,8 +55,8 @@
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "",
-		"navigationBarBackgroundColor": "transparent",
-		"backgroundColor": "#F8F8F8",
+		"navigationBarBackgroundColor": "#f5f5f5",
+		"backgroundColor": "#ffffff",
 		"pageOrientation": "portrait" //横屏配置，全局屏幕旋转设置(仅 APP/微信/QQ小程序)，支持 auto / portrait / landscape https://uniapp.dcloud.net.cn/collocation/pages.html#tabbar
 	}
 }

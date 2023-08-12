@@ -5,7 +5,9 @@
 // #endif
 
 import envConfig from './alipay/config.js'
-
+// uni.showToast({
+//   title: envConfig.BASE_URL
+// })
 // #ifdef MP-WEIXIN
 // import envConfig from '@/static/mp-weixin/config.js'
 // #endif
