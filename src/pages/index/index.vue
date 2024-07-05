@@ -3,6 +3,7 @@
 	
       <view class="text-area">
         <text class="title" @click="click">{{ title }}</text>
+        <text class="value">{{ 11 }}</text>
       </view>
 	  
 	  <!-- <view class="page-section page-section-gap width-all">
