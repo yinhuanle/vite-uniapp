@@ -46,7 +46,7 @@ const getSavedFileList = async () => {
 // 获取协议
 const getAgreement = async () => {
   try {
-    const res = await getProtocol({ flag: constant.appFlag })
+    const res = await getProtocol({ flag: constant.APP_FLAG })
     if (+res.code === 200) {
       // protocols.value = res.data.filter(ele => ele.agreementType === 1 || ele.agreementType === 2)
     }

@@ -1,5 +1,5 @@
 import { refreshToken } from '@/api/login'
-import envConfig from '@/common/alipay/config'
+import envConfig from '@/common/config/config'
 import {
   getToken,
   getRefreshToken,
@@ -96,7 +96,8 @@ const myRequest = (options: any, resolve: any, reject: any) => {
         if (!options.url.includes('rent/app/order/checkOnlineOrder')) {
           uni.showToast({
             title: res.data.msg,
-            duration: 3 * 1000
+            duration: 3 * 1000,
+            icon: 'error'
           })
         }
 
@@ -113,12 +114,14 @@ const myRequest = (options: any, resolve: any, reject: any) => {
             isFail = true
             if (res.networkType == 'none') {
               uni.showToast({
-                title: '网络异常，请稍后重试'
+                title: '网络异常，请稍后重试',
+                icon: 'error'
               })
               return
             }
             uni.showToast({
-              title: '服务异常，请稍后重试'
+              title: '服务异常，请稍后重试',
+              icon: 'error'
             })
           }
         },

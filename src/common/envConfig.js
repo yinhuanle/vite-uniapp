@@ -4,7 +4,7 @@
 // const { env } = process
 // #endif
 
-import envConfig from './alipay/config.js'
+import envConfig from './config/config.js'
 // uni.showToast({
 //   title: envConfig.BASE_URL
 // })
