@@ -1,11 +1,3 @@
-/*
- * @Author: CtrlC
- * @Date: 2022-07-13 10:05:45
- * @LastEditors: CtrlC
- * @LastEditTime: 2022-07-23 10:57:03
- * @Description: eslint规范
- * @FilePath: /uni-preset-vue-vite/.eslintrc.js
- */
 module.exports = {
   env: {
     browser: true,
@@ -21,6 +13,7 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest',
+    parser: '@typescript-eslint/parser',
     sourceType: 'module'
   },
   plugins: ['vue'],
