@@ -1,5 +1,5 @@
 {
-    "name" : "",
+    "name" : "1",
     "appid" : "__UNI__9E50B52",
     "description" : "",
     "versionName" : "1.0.0",
@@ -58,7 +58,7 @@
     "quickapp" : {},
     /* 小程序特有相关 */
     "mp-weixin" : {
-        "appid" : "",
+        "appid" : "1",
         "setting" : {
             "urlCheck" : false
         },

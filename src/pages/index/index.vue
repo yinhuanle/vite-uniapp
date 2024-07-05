@@ -21,11 +21,14 @@
 		<map v-if="mapShow" :scale="12" style="width: 100%; height: 100vh;" :latitude="latitude" :longitude="longitude" :markers="covers" @markertap="openMap(latitude,longitude,'initFoemdata.title')">
 		</map>
 	</view> -->
+
+    <tabBar :current-index="2" />
   </view>
 </template>
 
 <script setup lang="ts">
 import { onLaunch, onShow, onHide } from '@dcloudio/uni-app'
+import tabBar from '@/components/tabBar/tabBar.vue'
 // import { ref } from 'vue'
 import { getProtocol } from '@/api/login'
 import constant from '@/utils/constant'
